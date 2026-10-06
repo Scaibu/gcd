@@ -94,6 +94,16 @@ gcd/
 │   ├── shell-commands.md             # In-Depth CLI Manual & Error Matrix (`gcloud pubsub`)
 │   └── references.md                 # Official Pub/Sub Documentation Links & Best Practices
 │
+├── docker/                           # Feature 11: Docker & Container Engine (CLI & Runtime)
+│   ├── README.md                     # Docker Feature Index
+│   ├── casestudy/                    # Deep-Dive Case Studies & Hands-On Engineering Labs
+│   │   ├── README.md                 # Case Studies & Hands-On Labs Sitemap
+│   │   └── fullstack-local-setup-docker-compose-build.md # Lab 1: Full-Stack Setup (`docker compose` & `docker build`)
+│   ├── hld-lld-design.md             # Architecture, OCI Runtime Stack & OverlayFS Mechanics
+│   ├── decision-tree.md              # Base Image, Storage Mount & Network Driver Decision Trees
+│   ├── shell-commands.md             # In-Depth CLI Manual & Error Matrix (`docker` & `docker compose`)
+│   └── references.md                 # Official Docker Documentation Links & Best Practices
+│
 └── README.md                         # Master Workspace Index (This File)
 ```
 
@@ -192,6 +202,17 @@ gcd/
 * **[ASCII & Visual Decision Trees (`pubsub/decision-tree.md`)](file:///home/btpl-lap-22/live/gcd/pubsub/decision-tree.md)**
 * **[Shell Command Reference & Failure Resolutions (`pubsub/shell-commands.md`)](file:///home/btpl-lap-22/live/gcd/pubsub/shell-commands.md)**
 * **[Official References & Links (`pubsub/references.md`)](file:///home/btpl-lap-22/live/gcd/pubsub/references.md)**
+
+---
+
+### Feature 11: Docker & Container Engine (`/docker/`)
+* **[Case Studies & Hands-On Labs Index (`docker/casestudy/README.md`)](file:///home/btpl-lap-22/live/gcd/docker/casestudy/README.md)**
+* **[Lab 1: Full-Stack Setup (`docker compose` & `docker build`) (`docker/casestudy/fullstack-local-setup-docker-compose-build.md`)](file:///home/btpl-lap-22/live/gcd/docker/casestudy/fullstack-local-setup-docker-compose-build.md)**
+* **[HLD & LLD Design (`docker/hld-lld-design.md`)](file:///home/btpl-lap-22/live/gcd/docker/hld-lld-design.md)**
+* **[ASCII & Visual Decision Trees (`docker/decision-tree.md`)](file:///home/btpl-lap-22/live/gcd/docker/decision-tree.md)**
+* **[Shell Command Reference & Failure Resolutions (`docker/shell-commands.md`)](file:///home/btpl-lap-22/live/gcd/docker/shell-commands.md)**
+* **[Official References & Links (`docker/references.md`)](file:///home/btpl-lap-22/live/gcd/docker/references.md)**
+
 
 
 
