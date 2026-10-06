@@ -10,6 +10,19 @@ The board illustrates a color-coded GKE networking reference, including:
 - Authorized access to the private GKE control-plane endpoint from administrators and node kubelets.
 - VPC firewall policy and routing, outbound internet access through Cloud NAT, and Google API access through Private Google Access.
 
+## Detailed diagrams on the board
+
+1. VPC-native IP allocation
+2. Pod-to-pod datapath
+3. External ingress to a Pod
+4. Egress routing choices
+5. Cluster DNS resolution
+6. Layered network security
+7. Gateway API reconciliation
+8. Private control-plane connectivity
+9. Kubernetes Service exposure paths
+10. Multi-zone availability and failover
+
 ## Related repository references
 
 - [Unified Kubernetes, CNI, and GCP VPC networking guide](./networking-shell-command.md)

@@ -12,6 +12,21 @@ The board uses separate colors for client/external systems, the global load-bala
 
 The subnet CIDRs shown (`10.1.0.0/24` and `10.2.0.0/24`) are illustrative examples from the repository's architecture notes, not deployment settings.
 
+## Detailed diagrams on the board
+
+1. Global network and regional subnets
+2. Subnet addressing and reserved IPs
+3. Compute Engine packet lifecycle
+4. Route selection and next hops
+5. Stateful firewall evaluation
+6. Egress, Cloud NAT, and Google APIs
+7. Global load balancer and regional managed instance groups
+8. HA VPN and Cloud Router BGP
+9. Shared VPC host and service projects
+10. VPC Network Peering and isolation
+11. Subnet and secondary range growth
+12. Network diagnostics and observability
+
 ## Related repository references
 
 - [VPC high- and low-level design](./hld-lld-design.md)
