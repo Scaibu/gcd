@@ -18,6 +18,7 @@ Welcome to the **Google Cloud Virtual Private Cloud (VPC) Networks & Subnets** m
 | [**HLD & LLD Architecture Design**](file:///home/btpl-lap-22/live/gcd/vpc-network/hld-lld-design.md) | High-Level & Low-Level Design diagrams for Global VPC Topologies, Cross-Zone Regional Subnets, 4 Reserved Subnet IP Addresses, Internal DHCP/DNS Scoping, Ephemeral vs Static IP Billing, BYOIP, Dual-Stack IPv4/IPv6, Virtual Routers, and Distributed Stateful Firewalls. |
 | [**Decision Tree Guide**](file:///home/btpl-lap-22/live/gcd/vpc-network/decision-tree.md) | Visual decision flowcharts for Auto Mode vs Custom Mode selection, Subnet Mask planning, Zero-Downtime CIDR Expansion rules, Ephemeral vs Static External IP selection, BYOIP, and Firewall Rule targeting. |
 | [**CLI Shell Commands & Operations Manual**](file:///home/btpl-lap-22/live/gcd/vpc-network/shell-commands.md) | Exhaustive command manual covering `gcloud compute networks`, `gcloud compute subnets`, `gcloud compute firewall-rules`, `gcloud compute routes`, `gcloud dns`, and BYOIP with **Verification Checks**. |
+| [**Figma VPC & Compute Network Architecture**](./figma-vpc-compute-network-architecture.md) | Editable color-coded diagram of the global VPC, regional subnets, Compute Engine groups, load balancing, routes, firewall policy, Cloud NAT, Private Google Access, and HA VPN/BGP. |
 | [**Official References**](file:///home/btpl-lap-22/live/gcd/vpc-network/references.md) | Links to official GCP VPC documentation, RFC 1918 specifications, RFC 4291 IPv6, and BYOIP guides. |
 
 ---

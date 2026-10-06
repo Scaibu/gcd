@@ -44,6 +44,7 @@ gcd/
 │   ├── decision-tree.md              # ASCII & Visual Decision Trees (Workload Controllers & Services)
 │   ├── shell-commands.md             # In-Depth CLI Manual & Error Matrix (`kubectl`)
 │   ├── networking-shell-command.md   # Unified Networking Manual: Docker, CNI & GCP VPC Underlay
+│   ├── figma-networking-architecture.md # Editable Figma reference diagram for GKE networking
 │   └── references.md                 # Official Kubernetes Documentation Links & Best Practices
 │
 ├── bigquery/                         # Feature 5: BigQuery (Enterprise Data Warehouse)
@@ -58,6 +59,7 @@ gcd/
 │   ├── hld-lld-design.md             # Global VPC Topology & 4 Reserved IP Addresses Architecture
 │   ├── decision-tree.md              # Auto vs Custom Mode & Non-Downtime CIDR Expansion Trees
 │   ├── shell-commands.md             # In-Depth CLI Manual & Error Matrix (`gcloud compute networks/subnets`)
+│   ├── figma-vpc-compute-network-architecture.md # Editable Figma reference diagram for VPC and Compute networking
 │   └── references.md                 # Official VPC Documentation Links & RFC Standards
 │
 ├── cloud-sql/                        # Feature 7: Cloud SQL & Relational Databases
@@ -148,6 +150,7 @@ gcd/
 * **[ASCII & Visual Decision Trees (`kubernetes/decision-tree.md`)](file:///home/btpl-lap-22/live/gcd/kubernetes/decision-tree.md)**
 * **[Shell Command Reference & Failure Resolutions (`kubernetes/shell-commands.md`)](file:///home/btpl-lap-22/live/gcd/kubernetes/shell-commands.md)**
 * **[Unified Networking Manual: Docker, CNI & GCP VPC (`kubernetes/networking-shell-command.md`)](file:///home/btpl-lap-22/live/gcd/kubernetes/networking-shell-command.md)**
+* **[Figma GKE Networking Architecture (`kubernetes/figma-networking-architecture.md`)](./kubernetes/figma-networking-architecture.md)**
 * **[Official References & Links (`kubernetes/references.md`)](file:///home/btpl-lap-22/live/gcd/kubernetes/references.md)**
 
 ---
@@ -164,6 +167,7 @@ gcd/
 * **[HLD & LLD Design (`vpc-network/hld-lld-design.md`)](file:///home/btpl-lap-22/live/gcd/vpc-network/hld-lld-design.md)**
 * **[ASCII & Visual Decision Trees (`vpc-network/decision-tree.md`)](file:///home/btpl-lap-22/live/gcd/vpc-network/decision-tree.md)**
 * **[Shell Command Reference & Verification Manual (`vpc-network/shell-commands.md`)](file:///home/btpl-lap-22/live/gcd/vpc-network/shell-commands.md)**
+* **[Figma VPC & Compute Network Architecture (`vpc-network/figma-vpc-compute-network-architecture.md`)](./vpc-network/figma-vpc-compute-network-architecture.md)**
 * **[Official References & Links (`vpc-network/references.md`)](file:///home/btpl-lap-22/live/gcd/vpc-network/references.md)**
 
 ---
@@ -212,7 +216,6 @@ gcd/
 * **[ASCII & Visual Decision Trees (`docker/decision-tree.md`)](file:///home/btpl-lap-22/live/gcd/docker/decision-tree.md)**
 * **[Shell Command Reference & Failure Resolutions (`docker/shell-commands.md`)](file:///home/btpl-lap-22/live/gcd/docker/shell-commands.md)**
 * **[Official References & Links (`docker/references.md`)](file:///home/btpl-lap-22/live/gcd/docker/references.md)**
-
 
 
 
