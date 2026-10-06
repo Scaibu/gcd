@@ -12,16 +12,47 @@ The board illustrates a color-coded GKE networking reference, including:
 
 ## Detailed diagrams on the board
 
-1. VPC-native IP allocation
-2. Pod-to-pod datapath
-3. External ingress to a Pod
-4. Egress routing choices
-5. Cluster DNS resolution
-6. Layered network security
-7. Gateway API reconciliation
-8. Private control-plane connectivity
-9. Kubernetes Service exposure paths
-10. Multi-zone availability and failover
+These are Figma-rendered vector previews stored in this repository, so they display directly on GitHub. Open the board above to edit them in FigJam.
+
+### 1. VPC-native IP allocation
+
+![Figma diagram showing GKE VPC-native node, Pod, and Service address allocation](./figma-networking-assets/01-vpc-native-ip-allocation.svg)
+
+### 2. Pod-to-Pod datapath
+
+![Figma diagram showing same-node and cross-node Pod traffic](./figma-networking-assets/02-pod-to-pod-datapath.svg)
+
+### 3. External ingress to a Pod
+
+![Figma sequence diagram showing external ingress through Cloud Armor, load balancing, NEG, and Pod policy](./figma-networking-assets/03-external-ingress.svg)
+
+### 4. Egress routing choices
+
+![Figma diagram showing GKE egress through Cloud NAT, Private Google Access, and hybrid connectivity](./figma-networking-assets/04-egress-routing.svg)
+
+### 5. Cluster DNS resolution
+
+![Figma sequence diagram showing Kubernetes, VPC private, and public DNS resolution](./figma-networking-assets/05-cluster-dns.svg)
+
+### 6. Layered network security
+
+![Figma diagram showing Cloud Armor, VPC firewall, and Kubernetes NetworkPolicy layers](./figma-networking-assets/06-layered-security.svg)
+
+### 7. Gateway API reconciliation
+
+![Figma diagram showing Gateway API resources reconciled into Google Cloud load-balancing resources](./figma-networking-assets/07-gateway-api.svg)
+
+### 8. Private control-plane connectivity
+
+![Figma diagram showing private GKE API access from administrators and node agents](./figma-networking-assets/08-private-control-plane.svg)
+
+### 9. Kubernetes Service exposure paths
+
+![Figma diagram comparing ClusterIP, NodePort, LoadBalancer, and Gateway exposure](./figma-networking-assets/09-service-exposure.svg)
+
+### 10. Multi-zone availability and failover
+
+![Figma diagram showing GKE multi-zone health checks, surviving replicas, and rescheduling](./figma-networking-assets/10-multi-zone-failover.svg)
 
 ## Related repository references
 

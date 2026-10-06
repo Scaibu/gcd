@@ -14,18 +14,55 @@ The subnet CIDRs shown (`10.1.0.0/24` and `10.2.0.0/24`) are illustrative exampl
 
 ## Detailed diagrams on the board
 
-1. Global network and regional subnets
-2. Subnet addressing and reserved IPs
-3. Compute Engine packet lifecycle
-4. Route selection and next hops
-5. Stateful firewall evaluation
-6. Egress, Cloud NAT, and Google APIs
-7. Global load balancer and regional managed instance groups
-8. HA VPN and Cloud Router BGP
-9. Shared VPC host and service projects
-10. VPC Network Peering and isolation
-11. Subnet and secondary range growth
-12. Network diagnostics and observability
+These are Figma-rendered vector previews stored in this repository, so they display directly on GitHub. Open the board above to edit them in FigJam.
+
+### 1. Global VPC and regional subnets
+
+![Figma diagram showing a global VPC with regional subnets and zonal VMs](./figma-networking-assets/01-global-vpc-subnets.svg)
+
+### 2. Subnet addressing and reserved IPs
+
+![Figma diagram showing a subnet address range, reserved addresses, and secondary ranges](./figma-networking-assets/02-subnet-addressing.svg)
+
+### 3. Compute Engine packet lifecycle
+
+![Figma sequence diagram showing packet flow through a Compute Engine VM interface and VPC fabric](./figma-networking-assets/03-packet-lifecycle.svg)
+
+### 4. Route selection and next hops
+
+![Figma diagram showing subnet, custom, dynamic, and default route selection](./figma-networking-assets/04-route-selection.svg)
+
+### 5. Stateful firewall evaluation
+
+![Figma diagram showing rule priority, default firewall behavior, and connection tracking](./figma-networking-assets/05-firewall-evaluation.svg)
+
+### 6. Egress, Cloud NAT, and Google APIs
+
+![Figma diagram showing Cloud NAT, external IP, and Private Google Access egress paths](./figma-networking-assets/06-egress-cloud-nat.svg)
+
+### 7. Global load balancer and regional MIGs
+
+![Figma diagram showing global load balancing, health checks, and regional managed instance groups](./figma-networking-assets/07-global-load-balancer.svg)
+
+### 8. HA VPN and Cloud Router BGP
+
+![Figma diagram showing redundant HA VPN tunnels and Cloud Router BGP routes](./figma-networking-assets/08-ha-vpn-bgp.svg)
+
+### 9. Shared VPC host and service projects
+
+![Figma diagram showing centralized Shared VPC administration and service project workloads](./figma-networking-assets/09-shared-vpc.svg)
+
+### 10. VPC Network Peering and isolation
+
+![Figma diagram showing reciprocal VPC peering and non-transitive route exchange](./figma-networking-assets/10-vpc-peering.svg)
+
+### 11. Subnet and secondary range growth
+
+![Figma diagram showing capacity assessment, CIDR expansion, and validation](./figma-networking-assets/11-range-growth.svg)
+
+### 12. Network diagnostics and observability
+
+![Figma diagram showing Connectivity Tests, VPC Flow Logs, Packet Mirroring, and diagnosis](./figma-networking-assets/12-diagnostics.svg)
 
 ## Related repository references
 
